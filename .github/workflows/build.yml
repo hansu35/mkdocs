@@ -9,11 +9,9 @@ on:
 
 jobs:
   build:
-    name: Deploy docs
     runs-on: ubuntu-latest
 
     steps:
-      - name: check out
       - uses: actions/checkout@v2
 
       - name: Deploy
